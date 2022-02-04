@@ -235,3 +235,62 @@ body {
     max-width: 520px;
     margin-bottom: 27px;
 }
+.localize {
+    padding: 120px 0 147px 0;
+    background-color: #FFF8E4;
+}
+.localize-link {
+    font-size: 25px;
+    line-height: 35px;
+    font-weight: 600;
+    color: #000000;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+.localize-link:hover {
+    color: rgb(41, 124, 124);
+}
+.localize-title {
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 60px;
+    text-align: center;
+    margin-bottom: 79px;
+}
+.localize-item {
+    display: flex;
+    flex-direction: column;
+    max-width: 305px;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: 160px 120px;
+    background-position: top center;
+    padding-top: 146px;
+}
+.localize-text {
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+}
+.web-apps {
+    background-image: url(image/web-apps.png);
+}
+.mobile-apps {
+    background-image: url(image/mobile-apps.png);
+}
+.games {
+    background-image: url(image/games.png);
+}
+.documents {
+    background-image: url(image/documents.png);
+}
+.markering-e-mails {
+    background-image: url(image/markering-e-mails.png);
+}
+.lot {
+    background-image: url(image/lot.png);
+}
+.localize-list {
+    display: flex;
+}
+
