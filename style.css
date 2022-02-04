@@ -5,7 +5,7 @@ body {
     font-family: 'Graphik LCG', Sans-serif;
     font-weight: 400;
     font-size: 20px;
-    background-color: #FFFFFF;
+    color: #000000;
 }
 .header {
     border-bottom: 1px solid #d9d9d9;
@@ -75,4 +75,85 @@ body {
 .navigation-link-try:hover {
     background-color: wheat;
     color: #FF6336;
+}
+.delivery {
+    width: 1290px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 129px 0 172px 0;
+    background-image: url(image/delivery.png);
+    background-repeat: no-repeat;
+    background-size: 759px 529px;
+    background-position: 100% 46%;
+}
+.delivery-title {
+    max-width: 560px;
+    font-weight: 600;
+    font-size: 65px;
+    line-height: 70px;
+    margin-bottom: 51px;
+}
+.delivery-text {
+    max-width: 475px;
+    font-size: 25px;
+    line-height: 35px;
+    margin-bottom: 50px;
+}
+.delivery-button-body {
+    display: flex;
+    margin-bottom: 25px;
+}
+.delivery .navigation-link-try {
+    line-height: 58px;
+    padding: 0 41px 0 42px;
+    margin-right: 10px;
+}
+.delivery .button-log-in {
+    text-decoration: none;
+    line-height: 58px;
+    padding: 0 29px 0 28px;
+    margin-right: 0;
+}
+.delivery-sub-text {
+    font-size: 15px;
+    line-height: 25px;
+}
+.companies {
+    background-color: #FF9C7D;
+    padding: 108px 0 105px 0;
+}
+.container {
+    width: 1290px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.companies-title {
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 60px;
+    max-width: 720px;
+    text-align: center;
+    margin-bottom: 69px;
+}
+.companies .container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.companies-list {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.companies-link:hover {
+    background-color: #e96840;
+}
+.companies-link {
+    display: block;
+}
+.companies-img {
+    vertical-align: top;
+}
+.capterra {
+    fill: yellow;
 }
