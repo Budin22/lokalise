@@ -154,6 +154,27 @@ body {
 .companies-img {
     vertical-align: top;
 }
-.capterra {
-    fill: yellow;
+.app {
+    padding: 90px 0 250px 0;
+}
+.app-title {
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 60px;
+    max-width: 495px;
+    margin-bottom: 30px;
+}
+.app-text {
+    line-height: 30px;
+    max-width: 495px;
+    margin-bottom: 30px;
+}
+.start-now-link {
+    font-weight: 600;
+    line-height: 30px;
+    text-decoration: none;
+    color: #000000;
+}
+.start-now-link:hover {
+    color: rgb(41, 124, 124);
 }
